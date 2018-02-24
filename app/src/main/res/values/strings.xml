@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">mTruyen</string>
+    <string name="tentruyen">Tên Truyện</string>
+    <string name="tacgia">Tác Giả :</string>
+    <string name="tvtacgia">Tên Tác Giả</string>
+    <string name="title_activity_detail">Truyện Voz Hay</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_read_story">ReadStoryActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_search">Search</string>
+    <string name="truyenhayloading">Truyện Hay Dài Tập</string>
+    <string name="doconline">Đọc Truyện Online</string>
+    <string name="docoffline">Đọc Truyện Offline</string>
+    <string name="yeucautruyen">Yêu Cầu Truyện</string>
+    <string name="about">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

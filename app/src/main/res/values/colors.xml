@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F57C00</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#F57C00</color>
+    <color name="tvtacgia">#6A1B9A</color>
+    <color name="view">#C62828</color>
+    <color name="toobarColor">#e20733c1</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="img1">#66BB6A</color>
+    <color name="img2">#CDDC39</color>
+    <color name="img3">#00E676</color>
+    <color name="img4">#7E57C2</color>
+    <color name="button1">#4A148C</color>
+    <color name="button2">#B71C1C</color>
+    <color name="button3">#00ACC1</color>
+    <color name="button4">#C6FF00</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="clr1">#757575</color>
+    <color name="clr2">#C5CAE9</color>
+    <color name="clr4">#616161</color>
+
+    <color name="clr3">#424242</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="grey_dialog_box">#39d14104</color>
+</resources>

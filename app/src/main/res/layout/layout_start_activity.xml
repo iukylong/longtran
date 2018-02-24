@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size20dp"
+    tools:context="com.kait.longlongtran.storyvoz.UI.StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@color/img1">
+
+                <ImageSwitcher
+                    android:id="@+id/slide_transiton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></ImageSwitcher>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@color/img2">
+
+                <ImageSwitcher
+                    android:id="@+id/slide_transiton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></ImageSwitcher>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@color/img3">
+
+                <ImageSwitcher
+                    android:id="@+id/slide_transiton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></ImageSwitcher>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@color/img4">
+
+                <ImageSwitcher
+                    android:id="@+id/slide_transiton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></ImageSwitcher>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/truyenhayloading"
+            android:textSize="@dimen/size24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_DocTruyenOnline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size50dp"
+            android:layout_marginTop="@dimen/size50dp"
+            android:background="@color/button1"
+            android:text="@string/doconline" />
+
+        <Button
+            android:id="@+id/btn_DocTruyenOffline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size50dp"
+            android:background="@color/button2"
+            android:text="@string/docoffline" />
+
+        <Button
+            android:id="@+id/btn_YeuCauTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size50dp"
+            android:background="@color/button3"
+            android:text="@string/yeucautruyen" />
+
+        <Button
+            android:id="@+id/btn_About"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size50dp"
+            android:background="@color/button4"
+            android:text="@string/about" />
+
+    </LinearLayout>
+</LinearLayout>

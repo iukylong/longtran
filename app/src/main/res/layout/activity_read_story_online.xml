@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kait.longlongtran.storyvoz.UI.ReadStoryActivityOnline">
+
+    <ScrollView
+        android:id="@+id/scrollView_Online"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_MoTa_Online"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/size5dp"
+                android:layout_marginLeft="@dimen/size2dp"
+                android:layout_marginRight="@dimen/size2dp"
+                android:layout_marginTop="@dimen/size5dp"
+                android:textSize="@dimen/size18dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_Online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:id="@+id/linear_scroll_Online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"></LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

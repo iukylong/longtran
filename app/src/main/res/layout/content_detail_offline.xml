@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/layout_detail_offline">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/size5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size5dp"
+                android:layout_marginLeft="@dimen/size5dp"
+                android:text="Tác Giả"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/size16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_TacGiaDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tác Giả"
+                android:textSize="@dimen/size16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/size5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size5dp"
+                    android:text="Nguồn "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/size16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_NguonDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nguồn"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thể Loại"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/size16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_TheLoaiDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Thể Loại"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tình Trạng"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/size16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_TinhTrangDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tình Trạng"
+                    android:textStyle="bold"
+                    android:layout_weight="4"/>
+
+                <Button
+                    android:id="@+id/btn_DocTruyen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đọc Truyện"
+                    android:textColor="@color/button2"
+                    android:textStyle="bold"
+                    android:layout_weight="0.5"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chú Thích"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/size16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_GhiChuDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4"
+                    android:scrollbars="vertical"
+                    android:text="Ghi Chú" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.kait.longlongtran.storyvoz.UI.DetailActivityOffline">
+
+            <TextView
+                android:id="@+id/tv_MoDau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textSize="@dimen/size18dp" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+</LinearLayout>

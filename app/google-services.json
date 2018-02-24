@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363137197936",
+    "firebase_url": "https://truyen-49bc4.firebaseio.com",
+    "project_id": "truyen-49bc4",
+    "storage_bucket": "truyen-49bc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363137197936:android:f9177ce8c9a18556",
+        "android_client_info": {
+          "package_name": "com.kait.longlongtran.storyvoz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363137197936-3d27h4cqb1qdf0msjueu4gdmg80812r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kait.longlongtran.storyvoz",
+            "certificate_hash": "f18274f8bd5434f431ba52c43e2104c6d18ea248"
+          }
+        },
+        {
+          "client_id": "363137197936-oiv1el2dt7277gpau43836dbpcf2bnj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWHEhx2NAUApMIKGZXgZDcrtkgdQz0b50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363137197936-oiv1el2dt7277gpau43836dbpcf2bnj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
